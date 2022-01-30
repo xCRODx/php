@@ -1,0 +1,18 @@
+{
+	"status":"Usuario Criado com sucesso!!",
+	"data":	{
+		"id":"134",
+		"telefone":"11934761069",
+		"nome":"Rodrigo",
+		"pin":"81122095"
+	},
+	"conexao":	{
+		"id":"18",
+		"ipUsuario":"::1",
+		"dataAcessoCriado":"2021-03-10 01:15:31",
+		"ativa":"1",
+		"usuarioSID":"4f0cd9ffb50597836722059de86b127abd42bc1b",
+		"ultimoAcesso":"2021-03-10 01:15:31",
+		"nome":"Rodrigo"
+	}
+}
