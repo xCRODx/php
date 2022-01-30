@@ -7,9 +7,9 @@
  *  Projeto Framework para APIs
  *
  *  Partes funcionais:
- * base do framework (carregamento de fun??es, classes, actions, database)
- *  Autentica??o.
+ * base do framework (carregamento de funções, classes, actions, database)
+ *  Autenticação.
  *  
  * Parei com o desenvolvimento por aumento da complexidade do sistema.
- * ficaria complexo adicionar mais medidas de seguran?a como CSRF e XSS
-e n?o utiliza??o de boas pr?ticas como Namespaces, PSR4 por exemplo.
+ * ficaria complexo adicionar mais medidas de segurança como CSRF e XSS.
+ * Falta de utilização de boas práticas de programação como Namespaces e PSR4 no projeto
