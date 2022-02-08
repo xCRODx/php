@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>ES8 Telzir Project</title>
+
+
+  <link rel="stylesheet" 
+  href="http://code.jquery.com/qunit/qunit-1.19.0.css">
+</head>
+
+  <script src="//unpkg.com/systemjs@0.19.47/dist/system.js">
+
+  </script>
+  
+</head>
+
+<body>
+  
+  <!-- QUnit user Interface -->
+  <div id="qunit"></div>
+  <div id="qunit-fixture"></div>
+  <!-- End -->
+  
+  <!-- Include QUnit framework-->
+  <script src="http://code.jquery.com/qunit/qunit-1.19.0.js"></script>
+  
+  <!-- ES8 config script-->
+  <script src="./config.js"></script>
+  
+  
+  <script>
+  /* 
+      imports the main Test script of QUnit framework
+  */
+    SystemJS.import('./test/tests')
+  .catch(console.error.bind(console));
+
+  </script>
+  
+  
+</body>
+</html>

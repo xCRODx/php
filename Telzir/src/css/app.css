@@ -1,0 +1,383 @@
+body{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: rgb(227,31,31);
+  background: linear-gradient(180deg, rgba(227,31,31,1) 20%, rgba(255,255,255,1) 20%);
+}
+
+a{
+  color: rgb(227,31,31);
+}
+
+a:hover{
+  text-decoration: none;
+  color: rgb(150,10,10);
+}
+
+input{
+  text-align: center;
+  width: 150px;
+}
+
+#header{
+  background-color: rgb(227, 31, 31);
+  align-items: center;
+  display: flex;
+  top: 0;
+  z-index: 9;
+  border-color: #c6eaff;
+  padding: 0px;
+  border: 0px;
+  width: 100%;
+  margin:0px;
+  position: fixed; 
+  max-height: 1.5cm;
+}
+
+#header-btn-nav{
+  margin-left:10px;
+  margin-right: auto;
+  font-size:20px;
+}
+
+#header-btn-auth{
+  margin-left:auto;
+  margin-right: 10px;
+  font-size: 20px;
+}
+
+
+#tituloHeader{
+  color: white;
+  margin-right: auto;
+  margin-left: auto;
+  padding: 0;
+  margin-top: 5px;
+}
+
+#logoHeader{
+  color: white;
+  background-color: rgb(227,31,31);;
+  margin: 0px;
+  padding:0px;
+  padding-right: 5px;
+  padding-left: 5px;
+  border: solid 1px;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 0px;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  border-color: whitesmoke;
+}
+
+#logoHeader:hover,#tituloHeader:hover{
+  border-color: black;
+  color: black;
+}
+
+#footer{
+  color: white;
+  background-color: #cc2210;
+  bottom: 0px;
+  margin-bottom: 0px;
+  padding: 10px;
+  text-align: left;
+}
+.footer{
+  color:white;
+  text-decoration: none;
+  padding-top: 10px;
+  padding-bottom:10px;
+}
+a[class="footer"]{
+  text-decoration-color: white;
+  color: white;
+  margin: 20px;
+  margin-top:5px;
+}
+
+#content-blank{
+  background-color: white;
+  margin-top: 2cm ;
+  padding: 5px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px; 
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom:0;
+  height: auto;
+  border: solid 1px;
+  border-color: whitesmoke;
+  text-align: left;
+}
+
+#content-presentation{
+  background-color: white;
+}
+
+#content-promo{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#banner-img{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  opacity: 90%;
+  max-width: 100%;
+  border-radius: 10px;
+  border: solid 1px;
+  border-color: #ddd;
+}
+
+.popup-main{
+  z-index: 8;
+  width: 100%;
+  position: fixed;
+  margin-left: auto;
+  margin-right: auto;
+  left:0;
+  right:0;
+}
+
+.popup-base{
+  background-color: white;
+  border: solid 1px;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+  width: min(75%, 350px);
+  text-align: center;
+}
+
+#popup-simulate{
+  top:10%;
+}
+
+#popup-simulate-form{
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+  top:10%;
+  border:solid 1px;
+  border-radius: 10px;
+  background-color: white;
+  border-color: whitesmoke;
+  width: min(80%, 500px);
+}
+
+#popup-result{
+  top: 15%;
+}
+
+#popup-result-content{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: solid 1px;
+  border-color: whitesmoke;
+  border-radius: 10px;
+  padding: 15px;
+  width: min(80%, 500px);
+}
+
+#popup-alert{
+  top: 20%;
+}
+
+.result-free-tax{
+  color: green;
+  background-color: #B7FFB7BD;
+  border-color: #007A35;
+}
+
+.result-discount{
+  color: #017E29;
+  background-color: #B7FFC6BD;
+  border-color: #007A17;
+}
+
+.result-no-discount{
+  color: #AF9200;
+  background-color: #FDFFB7BD;
+  border-color: #C2B000;
+}
+
+.result-info{
+  border: solid 1px;
+  border-radius: 2px;
+  padding: 0px;
+  padding-top: 10px;
+  max-width: 150px;
+  margin:5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* max-width  */
+@media screen and (max-width: 600px) {
+	.popupl{
+	  width: 80%;
+	  max-width: 80%;
+	}
+}
+/* min-width */
+@media screen and (min-width: 900px) {
+	.popupl{
+	  width: 500px;
+	  max-width: 500px;
+	}
+}
+*/
+.btnfooter{
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+  float: right;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+
+.tema-a{
+background: rgb(227,31,31);
+background: linear-gradient(90deg, rgba(227,31,31,1) 0%, rgba(230,89,89,1) 100%);
+}
+
+.row{
+  max-width: 100%;
+  width: 100%;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+}
+
+.col{
+  max-width: 50%;
+  display: inline;
+  padding: 0;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+
+.shadow-1{
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.shadow-2{
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.app-btn{
+  color: white;
+  border-radius: 2px;
+  padding: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-family: "Open Sans", sans-serif;
+}
+
+.app-btn-1{
+  background-color: rgb(227, 31, 31);
+  color: white;
+}
+
+.app-btn-2{
+  color: rgb(227, 31, 31);
+  background-color: white;
+  border:solid 2px;
+  border-color: whitesmoke;
+}
+
+#scrollmenu {
+  overflow: auto;
+  white-space: nowrap;
+}
+
+#scroll-items{
+  display: flex;
+  max-width: 30px;
+  margin: 10px;
+}
+
+.card-item{
+  padding-bottom: 10px;
+  margin: 10px;
+  border: solid 1px;
+  border-radius: 10px;
+  border-color: whitesmoke;
+}
+
+.card-img{
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  border-radius:0px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  opacity: 80%;
+}
+
+.card-title{
+  margin: 5px;
+  border-bottom: solid 1px;
+  border-color: #ffeded;
+}
+
+.card-info{
+  margin: 5px;
+}
+
+.card-text{
+  padding:0px;
+  margin: 0px;
+  margin-left: 5px;
+}
+
+.card-footer{
+  background-color: white;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.input-promo-form{
+  
+  margin-left: auto;
+  margin-right: auto;
+  font-size:14px;
+  border: solid 1px;
+  border-color: #aa3333;
+  max-width: 150px;
+}
+
+.form-label{
+  font-size:15px;
+}
+
+.form-title{
+  font-size: 20px;
+  margin: 10px;
+  padding: 10px;
+  border-bottom: solid 1px;
+  border-bottom-color: #ddaaaa99;
+}
+
+.small{
+  margin:5px;
+}
+
+.small-text{
+  margin-bottom: 5px;
+  border-bottom: solid 1px;
+  border-bottom-color: whitesmoke;
+}
